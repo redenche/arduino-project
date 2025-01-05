@@ -22,8 +22,8 @@ void loop() {
     int y         = rand() % StickCP2.Display.height();//тут мы просто назначаем рандомную координату для x и y для нашего дисплея вообщем
     int r         = (StickCP2.Display.width() >> 4) + 2;// радиус(для круга) и длина строн дл фигур
     uint16_t c    = rand();//переменная цвета фигуры
-    int shapeType = rand() % 5;  // 0: Circle, 1: Rectangle
-                                 // 2: Ellipse, 3: Triangle, 4: Line//ну тут и юез меня понятно если ты английский знаеегь рандомное число от 0 до 5
+    int shapeType = rand() % 5;  // 0: круг, 1: прямоугольник
+                                 // 2: Элипс, 3: треугольник, 4: Линия
 
     StickCP2.Display.clear();  //очищаем дмсплей
 
