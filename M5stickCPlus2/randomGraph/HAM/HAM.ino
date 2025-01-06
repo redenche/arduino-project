@@ -2045,7 +2045,7 @@ const uint16_t epd_bitmap_hamsterbackgr [] PROGMEM = {
 };
 
 
-int score = 0;
+int score = 0;//добавление переменной кликов
 
 void setup() {
   M5.begin();//подготовка дисплея
